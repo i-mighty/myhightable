@@ -1,3 +1,5 @@
+/*eslint-disable */
+
 module.exports = {
   bracketSpacing: true,
   jsxBracketSameLine: true,
