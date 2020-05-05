@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
+    "test": "jest -u",
     "clear-watch": "watchman watch-del-all && watchman shutdown-server",
     "ios-bundle-js": "react-native bundle --dev false --entry-file index.ios.js --bundle-output ios/main.jsbundle --platform ios",
     "ios-build": "react-native run-ios --configuration Release",

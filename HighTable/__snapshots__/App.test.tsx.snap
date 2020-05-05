@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`examples of some things 1`] = `
+exports[`It renders successfully 1`] = `
 <View
   pointerEvents="box-none"
   style={

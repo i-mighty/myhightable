@@ -1,0 +1,22 @@
+image: node:12.10.0
+
+before_script:
+  - npm prune
+  - npm update -q
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+  - yarn install
+
+cache:
+  paths:
+    - node_modules/
+    - .yarn
+
+stages:
+  - test
+
+
+test:
+  stage: test
+  script:
+    - yarn run test
