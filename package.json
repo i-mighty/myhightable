@@ -17,9 +17,12 @@
     "android-bundle-js": "react-native bundle --platform android --dev false --entry-file ./index.js --bundle-output ./android/app/src/main/assets/index.bundle --sourcemap-output ./android/app/src/main/assets/index.map --assets-dest ./android/app/src/main/res/",
     "lint": "eslint . --fix",
     "prettier": "prettier --write **/*{js,json,ts,tsx}",
-    "android-debug-e2e": "detox build --configuration android.emu.debug"
+    "android-debug-e2e": "detox build --configuration android.emu.debug",
+    "android-dropbox-upload": "node dropbox-upload.js"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "dropbox-v2-api": "^2.4.17",
     "react": "16.11.0",
     "react-native": "0.62.2"
   },
