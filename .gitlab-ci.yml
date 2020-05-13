@@ -26,9 +26,7 @@ test:
 assembleRelease:
   stage: assembleAndroid
   only: 
-    refs:
-      - master
-      - staging
+    - develop
   script:
     - echo $KEYSTORE_FILE | base64 -d > my.keystore
     - ./gradlew assembleRelease
@@ -41,10 +39,9 @@ assembleRelease:
       - app/build/outputs/apk/release
       - CHANGELOG
 
-deployAndroidStaging:
+deployStaging:
   stage: deployAndroid
   only:
-    refs: 
-      - develop
-  scripts:
+    - develop
+  script:
     - yarn run android-dropbox-upload
