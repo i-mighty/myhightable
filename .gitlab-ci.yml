@@ -1,0 +1,47 @@
+image: node:12.10.0
+
+before_script:
+  - npm prune
+  - npm update -q
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+  - yarn install
+
+cache:
+  paths:
+    - node_modules/
+    - .yarn
+
+stages:
+  - test
+  - assembleAndroid
+  - deployAndroid
+
+
+test:
+  stage: test
+  script:
+    - yarn run test
+
+assembleRelease:
+  stage: assembleAndroid
+  only: 
+    - develop
+  script:
+    - echo $KEYSTORE_FILE | base64 -d > my.keystore
+    - ./gradlew assembleRelease
+      -Pandroid.injected.signing.store.file=$(pwd)/my.keystore
+      -Pandroid.injected.signing.store.password=$KEYSTORE_PASSWORD
+      -Pandroid.injected.signing.key.alias=$KEY_ALIAS
+      -Pandroid.injected.signing.key.password=$KEY_PASSWORD
+  artifacts:
+    paths:
+      - app/build/outputs/apk/release
+      - CHANGELOG
+
+deployStaging:
+  stage: deployAndroid
+  only:
+    - develop
+  script:
+    - yarn run android-dropbox-upload

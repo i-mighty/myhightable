@@ -1,6 +1,10 @@
+/*eslint-disable */
+
 module.exports = {
-  bracketSpacing: false,
+  bracketSpacing: true,
   jsxBracketSameLine: true,
   singleQuote: true,
   trailingComma: 'all',
+  tabWidth: 2,
+  semi: true,
 };
