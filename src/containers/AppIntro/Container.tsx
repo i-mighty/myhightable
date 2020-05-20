@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Swiper from 'react-native-swiper';
 import Footer from '@src/components/IntroSlider/Footer/Footer';
-import DetailsPage, { PageProp } from '@src/components/DetailsPage/DetailsPage';
+import DetailsPage, { PageProp } from '@src/components/IntroSlider/DetailsPage/DetailsPage';
 
 const IntroContainer: React.FC = () => {
   const [swiperIndex, setSwiperIndex] = useState<number>(0);
