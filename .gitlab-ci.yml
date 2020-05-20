@@ -1,4 +1,5 @@
 image: node:12.10.0
+image: jangrewe/gitlab-ci-android
 
 before_script:
   - npm prune
@@ -28,8 +29,26 @@ assembleRelease:
   only: 
     - develop
   script:
+    - cd android
     - echo $KEYSTORE_FILE | base64 -d > my.keystore
     - ./gradlew assembleRelease
+      -Pandroid.injected.signing.store.file=$(pwd)/my.keystore
+      -Pandroid.injected.signing.store.password=$KEYSTORE_PASSWORD
+      -Pandroid.injected.signing.key.alias=$KEY_ALIAS
+      -Pandroid.injected.signing.key.password=$KEY_PASSWORD
+  artifacts:
+    paths:
+      - app/build/outputs/apk/release
+      - CHANGELOG
+
+bundleRelease:
+  stage: assembleAndroid
+  only: 
+    - master
+  script:
+    - cd android
+    - echo $KEYSTORE_FILE | base64 -d > my.keystore
+    - ./gradle bundleRelease
       -Pandroid.injected.signing.store.file=$(pwd)/my.keystore
       -Pandroid.injected.signing.store.password=$KEYSTORE_PASSWORD
       -Pandroid.injected.signing.key.alias=$KEY_ALIAS

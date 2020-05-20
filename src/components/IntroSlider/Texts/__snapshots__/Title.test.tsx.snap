@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title renders successfully 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#F89505",
+            "fontFamily": "Roboto",
+            "fontSize": 24,
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": 28,
+            "marginBottom": 5,
+            "textAlign": "center",
+          },
+        ]
+      }
+      testID="title"
+    >
+      HighTable
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Title renders with the right color 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      color="#FFFFFF"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Roboto",
+            "fontSize": 24,
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": 28,
+            "marginBottom": 5,
+            "textAlign": "center",
+          },
+        ]
+      }
+      testID="title"
+    >
+      HighTable
+    </Text>
+  </View>
+</View>
+`;

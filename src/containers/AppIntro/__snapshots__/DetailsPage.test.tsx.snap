@@ -1,0 +1,3511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsPage renders AuthView properly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        animation="fadeIn"
+        source={
+          Object {
+            "testUri": "../../../src/assets/Intro/cafe.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            undefined,
+          ]
+        }
+        testID="root"
+      />
+      <SafeAreaView
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "flex": 1,
+          }
+        }
+      >
+        <ScrollView
+          automaticallyAdjustContentInsets={false}
+          contentContainerStyle={
+            Array [
+              Object {
+                "padding": undefined,
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+            ]
+          }
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={false}
+          enableResetScrollToCoords={true}
+          extraHeight={75}
+          extraScrollHeight={0}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardShouldPersistTaps="handled"
+          keyboardSpace={0}
+          resetScrollToCoords={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          scrollEventThrottle={1}
+          showsVerticalScrollIndicator={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+          viewIsInsideTabBar={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "marginTop": -70,
+                "maxWidth": 360,
+                "width": "100%",
+              }
+            }
+            testID="container"
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "marginTop": 50,
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <
+                activeOpacity={0.5}
+                block={true}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "backgroundColor": "#007aff",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 2,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "center",
+                    "paddingBottom": 6,
+                    "paddingTop": 6,
+                    "shadowColor": undefined,
+                    "shadowOffset": undefined,
+                    "shadowOpacity": undefined,
+                    "shadowRadius": undefined,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#fff",
+                      "fontFamily": "System",
+                      "fontSize": 16.5,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "paddingLeft": 16,
+                      "paddingRight": 16,
+                    }
+                  }
+                  uppercase={false}
+                >
+                  Get Started
+                </Text>
+              </>
+              <View
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "Roboto",
+                        "fontSize": 18,
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "lineHeight": 21,
+                        "marginTop": 10,
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  Already have an account?
+                </Text>
+                <
+                  style={
+                    Array [
+                      Object {
+                        "marginBottom": 0,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "marginTop": 0,
+                        "paddingLeft": 2,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    color="#F89505"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#F89505",
+                          "fontFamily": "Roboto",
+                          "fontSize": 18,
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                          "lineHeight": 21,
+                          "marginTop": 10,
+                          "textAlign": "center",
+                        },
+                      ]
+                    }
+                  >
+                    Sign In
+                  </Text>
+                </>
+              </View>
+            </View>
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "bottom": "100%",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingBottom": 4,
+          "paddingEnd": 4,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <TouchableWithoutFeedback
+        hitSlop={
+          Object {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(250, 186, 48, 0.95)",
+              },
+              Object {
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "paddingHorizontal": 12,
+              },
+            ]
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 12,
+                "includeFontPadding": false,
+                "lineHeight": 16,
+              }
+            }
+          >
+            Dismiss All
+          </Text>
+        </View>
+      </TouchableWithoutFeedback>
+    </View>
+    <ScrollView
+      data={
+        Array [
+          Object {
+            "category": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?﻿%s﻿%s",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+
+Check the render method of \`Button\`.
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)",
+                  "substitutions": Array [
+                    Object {
+                      "length": 38,
+                      "offset": 120,
+                    },
+                    Object {
+                      "length": 1447,
+                      "offset": 158,
+                    },
+                  ],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 180,
+                    "methodName": "registerError",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 21,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 84,
+                    "methodName": "errorImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 13,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 63,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 120,
+                    "methodName": "printWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 4,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 92,
+                    "methodName": "error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 8,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 8004,
+                    "methodName": "validateFunctionComponentInDev",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 6,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 7971,
+                    "methodName": "mountIndeterminateComponent",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 9019,
+                    "methodName": "beginWork",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 11,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 12649,
+                    "methodName": "performUnitOfWork",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+          Object {
+            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+                  "substitutions": Array [],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 156,
+                    "methodName": "registerWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 23,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 88,
+                    "methodName": "warnImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 12,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 66,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 14,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 795,
+                    "methodName": "transformRawValue",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 63,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 834,
+                    "methodName": "getStylesForProperty",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 32,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 857,
+                    "methodName": "<unknown>",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": null,
+                    "file": "<anonymous>",
+                    "lineNumber": null,
+                    "methodName": "Array.reduce",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 853,
+                    "methodName": "index",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 26,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
+                    "lineNumber": 5762,
+                    "methodName": "InlineStyle.generateStyleObject",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      maxToRenderPerBatch={10}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      scrollEnabled={false}
+      scrollEventThrottle={50}
+      scrollsToTop={false}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "height": 97,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+
+Check the render method of \`Button\`.
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Expected style "backgroundColor: 0.5" to contain units
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+    </ScrollView>
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "rgba(250, 186, 48, 0.95)",
+          "marginTop": 0.5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`DetailsPage renders properly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        animation="fadeIn"
+        source={
+          Object {
+            "testUri": "../../../src/assets/Intro/cafe.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            undefined,
+          ]
+        }
+        testID="root"
+      />
+      <View>
+        <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": 0.5,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomColor": "transparent",
+                  "borderBottomWidth": 0.5,
+                  "elevation": 0,
+                  "flexDirection": "row",
+                  "height": 64,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "paddingLeft": 6,
+                  "paddingRight": 10,
+                  "paddingTop": 18,
+                  "right": 0,
+                  "shadowColor": null,
+                  "shadowOffset": null,
+                  "shadowOpacity": null,
+                  "shadowRadius": null,
+                  "top": 0,
+                },
+                Object {
+                  "backgroundColor": 0.5,
+                  "width": "100%",
+                },
+              ]
+            }
+            transparent={true}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <
+                activeOpacity={0.5}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": null,
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": null,
+                    "borderLeftWidth": null,
+                    "borderRadius": 50,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "marginRight": -9,
+                    "paddingBottom": 6,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 6,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+                transparent={true}
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#007aff",
+                        "fontFamily": "System",
+                        "fontSize": 17,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "paddingLeft": 16,
+                        "paddingRight": 0,
+                        "top": 1,
+                      },
+                      Object {
+                        "color": "rgba(255,255,255,0.5)",
+                        "fontFamily": "Roboto",
+                        "fontSize": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "lineHeight": 16,
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                  uppercase={false}
+                >
+                  Skip
+                </Text>
+              </>
+            </View>
+          </View>
+        </SafeAreaView>
+      </View>
+      <SafeAreaView
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "flex": 1,
+          }
+        }
+      >
+        <ScrollView
+          automaticallyAdjustContentInsets={false}
+          contentContainerStyle={
+            Array [
+              Object {
+                "padding": undefined,
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+            ]
+          }
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={false}
+          enableResetScrollToCoords={true}
+          extraHeight={75}
+          extraScrollHeight={0}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardShouldPersistTaps="handled"
+          keyboardSpace={0}
+          resetScrollToCoords={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          scrollEventThrottle={1}
+          showsVerticalScrollIndicator={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+          viewIsInsideTabBar={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "marginTop": -70,
+                "maxWidth": 360,
+                "width": "100%",
+              }
+            }
+            testID="container"
+          />
+        </ScrollView>
+      </SafeAreaView>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "bottom": "100%",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingBottom": 4,
+          "paddingEnd": 4,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <TouchableWithoutFeedback
+        hitSlop={
+          Object {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(250, 186, 48, 0.95)",
+              },
+              Object {
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "paddingHorizontal": 12,
+              },
+            ]
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 12,
+                "includeFontPadding": false,
+                "lineHeight": 16,
+              }
+            }
+          >
+            Dismiss All
+          </Text>
+        </View>
+      </TouchableWithoutFeedback>
+    </View>
+    <ScrollView
+      data={
+        Array [
+          Object {
+            "category": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?﻿%s﻿%s",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+
+Check the render method of \`Button\`.
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)",
+                  "substitutions": Array [
+                    Object {
+                      "length": 38,
+                      "offset": 120,
+                    },
+                    Object {
+                      "length": 1447,
+                      "offset": 158,
+                    },
+                  ],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 180,
+                    "methodName": "registerError",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 21,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 84,
+                    "methodName": "errorImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 13,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 63,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 120,
+                    "methodName": "printWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 4,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 92,
+                    "methodName": "error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 8,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 8004,
+                    "methodName": "validateFunctionComponentInDev",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 6,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 7971,
+                    "methodName": "mountIndeterminateComponent",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 9019,
+                    "methodName": "beginWork",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 11,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 12649,
+                    "methodName": "performUnitOfWork",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+          Object {
+            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+                  "substitutions": Array [],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 156,
+                    "methodName": "registerWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 23,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 88,
+                    "methodName": "warnImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 12,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 66,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 14,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 795,
+                    "methodName": "transformRawValue",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 63,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 834,
+                    "methodName": "getStylesForProperty",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 32,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 857,
+                    "methodName": "<unknown>",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": null,
+                    "file": "<anonymous>",
+                    "lineNumber": null,
+                    "methodName": "Array.reduce",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 853,
+                    "methodName": "index",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 26,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
+                    "lineNumber": 5762,
+                    "methodName": "InlineStyle.generateStyleObject",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      maxToRenderPerBatch={10}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      scrollEnabled={false}
+      scrollEventThrottle={50}
+      scrollsToTop={false}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "height": 97,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+
+Check the render method of \`Button\`.
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Expected style "backgroundColor: 0.5" to contain units
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+    </ScrollView>
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "rgba(250, 186, 48, 0.95)",
+          "marginTop": 0.5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`DetailsPage renders with banner  1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        animation="fadeIn"
+        source={
+          Object {
+            "testUri": "../../../src/assets/Intro/cafe.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            undefined,
+          ]
+        }
+        testID="root"
+      />
+      <SafeAreaView
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "flex": 1,
+          }
+        }
+      >
+        <ScrollView
+          automaticallyAdjustContentInsets={false}
+          contentContainerStyle={
+            Array [
+              Object {
+                "padding": undefined,
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+            ]
+          }
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={false}
+          enableResetScrollToCoords={true}
+          extraHeight={75}
+          extraScrollHeight={0}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardShouldPersistTaps="handled"
+          keyboardSpace={0}
+          resetScrollToCoords={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          scrollEventThrottle={1}
+          showsVerticalScrollIndicator={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+          viewIsInsideTabBar={false}
+        >
+          <View
+            animation="fadeInUp"
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "marginTop": -70,
+                "maxWidth": 360,
+                "width": "100%",
+              }
+            }
+            testID="container"
+          >
+            <SvgMock
+              height={233}
+              testID="banner"
+              width={248}
+            />
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "bottom": "100%",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingBottom": 4,
+          "paddingEnd": 4,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <TouchableWithoutFeedback
+        hitSlop={
+          Object {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(250, 186, 48, 0.95)",
+              },
+              Object {
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "paddingHorizontal": 12,
+              },
+            ]
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 12,
+                "includeFontPadding": false,
+                "lineHeight": 16,
+              }
+            }
+          >
+            Dismiss All
+          </Text>
+        </View>
+      </TouchableWithoutFeedback>
+    </View>
+    <ScrollView
+      data={
+        Array [
+          Object {
+            "category": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?﻿%s﻿%s",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+
+Check the render method of \`Button\`.
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)",
+                  "substitutions": Array [
+                    Object {
+                      "length": 38,
+                      "offset": 120,
+                    },
+                    Object {
+                      "length": 1447,
+                      "offset": 158,
+                    },
+                  ],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 180,
+                    "methodName": "registerError",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 21,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 84,
+                    "methodName": "errorImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 13,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 63,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 120,
+                    "methodName": "printWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 4,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 92,
+                    "methodName": "error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 8,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 8004,
+                    "methodName": "validateFunctionComponentInDev",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 6,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 7971,
+                    "methodName": "mountIndeterminateComponent",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 9019,
+                    "methodName": "beginWork",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 11,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 12649,
+                    "methodName": "performUnitOfWork",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+          Object {
+            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+                  "substitutions": Array [],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 156,
+                    "methodName": "registerWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 23,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 88,
+                    "methodName": "warnImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 12,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 66,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 14,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 795,
+                    "methodName": "transformRawValue",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 63,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 834,
+                    "methodName": "getStylesForProperty",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 32,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 857,
+                    "methodName": "<unknown>",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": null,
+                    "file": "<anonymous>",
+                    "lineNumber": null,
+                    "methodName": "Array.reduce",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 853,
+                    "methodName": "index",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 26,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
+                    "lineNumber": 5762,
+                    "methodName": "InlineStyle.generateStyleObject",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      maxToRenderPerBatch={10}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      scrollEnabled={false}
+      scrollEventThrottle={50}
+      scrollsToTop={false}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "height": 97,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+
+Check the render method of \`Button\`.
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Expected style "backgroundColor: 0.5" to contain units
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+    </ScrollView>
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "rgba(250, 186, 48, 0.95)",
+          "marginTop": 0.5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`DetailsPage renders with the right Description 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        animation="fadeIn"
+        source={
+          Object {
+            "testUri": "../../../src/assets/Intro/cafe.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            undefined,
+          ]
+        }
+        testID="root"
+      />
+      <View>
+        <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": 0.5,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomColor": "transparent",
+                  "borderBottomWidth": 0.5,
+                  "elevation": 0,
+                  "flexDirection": "row",
+                  "height": 64,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "paddingLeft": 6,
+                  "paddingRight": 10,
+                  "paddingTop": 18,
+                  "right": 0,
+                  "shadowColor": null,
+                  "shadowOffset": null,
+                  "shadowOpacity": null,
+                  "shadowRadius": null,
+                  "top": 0,
+                },
+                Object {
+                  "backgroundColor": 0.5,
+                  "width": "100%",
+                },
+              ]
+            }
+            transparent={true}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <
+                activeOpacity={0.5}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": null,
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": null,
+                    "borderLeftWidth": null,
+                    "borderRadius": 50,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "marginRight": -9,
+                    "paddingBottom": 6,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 6,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+                transparent={true}
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#007aff",
+                        "fontFamily": "System",
+                        "fontSize": 17,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "paddingLeft": 16,
+                        "paddingRight": 0,
+                        "top": 1,
+                      },
+                      Object {
+                        "color": "rgba(255,255,255,0.5)",
+                        "fontFamily": "Roboto",
+                        "fontSize": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "lineHeight": 16,
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                  uppercase={false}
+                >
+                  Skip
+                </Text>
+              </>
+            </View>
+          </View>
+        </SafeAreaView>
+      </View>
+      <SafeAreaView
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "flex": 1,
+          }
+        }
+      >
+        <ScrollView
+          automaticallyAdjustContentInsets={false}
+          contentContainerStyle={
+            Array [
+              Object {
+                "padding": undefined,
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+            ]
+          }
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={false}
+          enableResetScrollToCoords={true}
+          extraHeight={75}
+          extraScrollHeight={0}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardShouldPersistTaps="handled"
+          keyboardSpace={0}
+          resetScrollToCoords={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          scrollEventThrottle={1}
+          showsVerticalScrollIndicator={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+          viewIsInsideTabBar={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "marginTop": -70,
+                "maxWidth": 360,
+                "width": "100%",
+              }
+            }
+            testID="container"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 18,
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": 21,
+                    "marginTop": 10,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Some sample description
+            </Text>
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "bottom": "100%",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingBottom": 4,
+          "paddingEnd": 4,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <TouchableWithoutFeedback
+        hitSlop={
+          Object {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(250, 186, 48, 0.95)",
+              },
+              Object {
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "paddingHorizontal": 12,
+              },
+            ]
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 12,
+                "includeFontPadding": false,
+                "lineHeight": 16,
+              }
+            }
+          >
+            Dismiss All
+          </Text>
+        </View>
+      </TouchableWithoutFeedback>
+    </View>
+    <ScrollView
+      data={
+        Array [
+          Object {
+            "category": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?﻿%s﻿%s",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+
+Check the render method of \`Button\`.
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)",
+                  "substitutions": Array [
+                    Object {
+                      "length": 38,
+                      "offset": 120,
+                    },
+                    Object {
+                      "length": 1447,
+                      "offset": 158,
+                    },
+                  ],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 180,
+                    "methodName": "registerError",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 21,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 84,
+                    "methodName": "errorImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 13,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 63,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 120,
+                    "methodName": "printWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 4,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 92,
+                    "methodName": "error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 8,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 8004,
+                    "methodName": "validateFunctionComponentInDev",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 6,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 7971,
+                    "methodName": "mountIndeterminateComponent",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 9019,
+                    "methodName": "beginWork",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 11,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 12649,
+                    "methodName": "performUnitOfWork",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+          Object {
+            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+                  "substitutions": Array [],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 156,
+                    "methodName": "registerWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 23,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 88,
+                    "methodName": "warnImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 12,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 66,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 14,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 795,
+                    "methodName": "transformRawValue",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 63,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 834,
+                    "methodName": "getStylesForProperty",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 32,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 857,
+                    "methodName": "<unknown>",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": null,
+                    "file": "<anonymous>",
+                    "lineNumber": null,
+                    "methodName": "Array.reduce",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 853,
+                    "methodName": "index",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 26,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
+                    "lineNumber": 5762,
+                    "methodName": "InlineStyle.generateStyleObject",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      maxToRenderPerBatch={10}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      scrollEnabled={false}
+      scrollEventThrottle={50}
+      scrollsToTop={false}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "height": 97,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+
+Check the render method of \`Button\`.
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Expected style "backgroundColor: 0.5" to contain units
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+    </ScrollView>
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "rgba(250, 186, 48, 0.95)",
+          "marginTop": 0.5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`DetailsPage renders with the right Title 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        animation="fadeIn"
+        source={
+          Object {
+            "testUri": "../../../src/assets/Intro/cafe.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            undefined,
+          ]
+        }
+        testID="root"
+      />
+      <View>
+        <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": 0.5,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomColor": "transparent",
+                  "borderBottomWidth": 0.5,
+                  "elevation": 0,
+                  "flexDirection": "row",
+                  "height": 64,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "paddingLeft": 6,
+                  "paddingRight": 10,
+                  "paddingTop": 18,
+                  "right": 0,
+                  "shadowColor": null,
+                  "shadowOffset": null,
+                  "shadowOpacity": null,
+                  "shadowRadius": null,
+                  "top": 0,
+                },
+                Object {
+                  "backgroundColor": 0.5,
+                  "width": "100%",
+                },
+              ]
+            }
+            transparent={true}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <
+                activeOpacity={0.5}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": null,
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": null,
+                    "borderLeftWidth": null,
+                    "borderRadius": 50,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "marginRight": -9,
+                    "paddingBottom": 6,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 6,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+                transparent={true}
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#007aff",
+                        "fontFamily": "System",
+                        "fontSize": 17,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "paddingLeft": 16,
+                        "paddingRight": 0,
+                        "top": 1,
+                      },
+                      Object {
+                        "color": "rgba(255,255,255,0.5)",
+                        "fontFamily": "Roboto",
+                        "fontSize": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "lineHeight": 16,
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                  uppercase={false}
+                >
+                  Skip
+                </Text>
+              </>
+            </View>
+          </View>
+        </SafeAreaView>
+      </View>
+      <SafeAreaView
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "flex": 1,
+          }
+        }
+      >
+        <ScrollView
+          automaticallyAdjustContentInsets={false}
+          contentContainerStyle={
+            Array [
+              Object {
+                "padding": undefined,
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+            ]
+          }
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={false}
+          enableResetScrollToCoords={true}
+          extraHeight={75}
+          extraScrollHeight={0}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardShouldPersistTaps="handled"
+          keyboardSpace={0}
+          resetScrollToCoords={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          scrollEventThrottle={1}
+          showsVerticalScrollIndicator={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+          viewIsInsideTabBar={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "marginTop": -70,
+                "maxWidth": 360,
+                "width": "100%",
+              }
+            }
+            testID="container"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#F89505",
+                    "fontFamily": "Roboto",
+                    "fontSize": 24,
+                    "fontStyle": "normal",
+                    "fontWeight": "bold",
+                    "lineHeight": 28,
+                    "marginBottom": 5,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Title
+            </Text>
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "bottom": "100%",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingBottom": 4,
+          "paddingEnd": 4,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <TouchableWithoutFeedback
+        hitSlop={
+          Object {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(250, 186, 48, 0.95)",
+              },
+              Object {
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "paddingHorizontal": 12,
+              },
+            ]
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 12,
+                "includeFontPadding": false,
+                "lineHeight": 16,
+              }
+            }
+          >
+            Dismiss All
+          </Text>
+        </View>
+      </TouchableWithoutFeedback>
+    </View>
+    <ScrollView
+      data={
+        Array [
+          Object {
+            "category": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?﻿%s﻿%s",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+
+Check the render method of \`Button\`.
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)",
+                  "substitutions": Array [
+                    Object {
+                      "length": 38,
+                      "offset": 120,
+                    },
+                    Object {
+                      "length": 1447,
+                      "offset": 158,
+                    },
+                  ],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 180,
+                    "methodName": "registerError",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 21,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 84,
+                    "methodName": "errorImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 13,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 63,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 120,
+                    "methodName": "printWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 4,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 92,
+                    "methodName": "error",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 8,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 8004,
+                    "methodName": "validateFunctionComponentInDev",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 6,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 7971,
+                    "methodName": "mountIndeterminateComponent",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 9019,
+                    "methodName": "beginWork",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 11,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-test-renderer\\\\cjs\\\\react-test-renderer.development.js",
+                    "lineNumber": 12649,
+                    "methodName": "performUnitOfWork",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+          Object {
+            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
+                  "substitutions": Array [],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 29,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
+                    "lineNumber": 58,
+                    "methodName": "Function.parse",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 56,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 156,
+                    "methodName": "registerWarning",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 23,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 88,
+                    "methodName": "warnImpl",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 12,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
+                    "lineNumber": 66,
+                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 14,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 795,
+                    "methodName": "transformRawValue",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 63,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 834,
+                    "methodName": "getStylesForProperty",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 32,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 857,
+                    "methodName": "<unknown>",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": null,
+                    "file": "<anonymous>",
+                    "lineNumber": null,
+                    "methodName": "Array.reduce",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 15,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
+                    "lineNumber": 853,
+                    "methodName": "index",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 26,
+                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
+                    "lineNumber": 5762,
+                    "methodName": "InlineStyle.generateStyleObject",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      maxToRenderPerBatch={10}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      scrollEnabled={false}
+      scrollEventThrottle={50}
+      scrollsToTop={false}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "height": 97,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+
+Check the render method of \`Button\`.
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 0.6)",
+                    }
+                  }
+                >
+                  
+    in TouchableOpacity (at Button.js:79)
+    in Button (created by Styled(Button))
+    in Styled(Button) (created by Header)
+    in View (created by View)
+    in View (at Right.js:10)
+    in Right (created by Styled(Right))
+    in Styled(Right) (created by Header)
+    in View (created by View)
+    in View (at Header.js:54)
+    in SafeAreaView (created by SafeAreaView)
+    in SafeAreaView (at Header.js:49)
+    in View (created by View)
+    in View (at Header.js:33)
+    in Header (created by Styled(Header))
+    in Styled(Header) (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(Styled(Header)))
+    in Styled(Styled(Header)) (created by Header)
+    in Header (created by ImageBackground)
+    in View (created by View)
+    in View (created by ImageBackground)
+    in ImageBackground (created by Context.Consumer)
+    in StyledNativeComponent (created by Styled(ImageBackground))
+    in Styled(ImageBackground) (created by AnimatedComponent)
+    in AnimatedComponent (created by ForwardRef(AnimatedComponentWrapper))
+    in ForwardRef(AnimatedComponentWrapper) (created by AnimatableComponent)
+    in AnimatableComponent (created by ImageBackground)
+    in ImageBackground (created by DetailsPage)
+    in DetailsPage
+    in ThemeProvider
+    in View (created by View)
+    in View (created by AppContainer)
+    in View (created by View)
+    in View (created by AppContainer)
+    in AppContainer (at src/index.js:26)
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  Expected style "backgroundColor: 0.5" to contain units
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+    </ScrollView>
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "rgba(250, 186, 48, 0.95)",
+          "marginTop": 0.5,
+        }
+      }
+    />
+  </View>
+</View>
+`;

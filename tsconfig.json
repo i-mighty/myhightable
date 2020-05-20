@@ -9,7 +9,19 @@
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "baseUrl": "./src", // all paths are relative to the baseUrl
+    "paths": {
+      "@src/*": ["*"] // resolve any `~/foo/bar` to `<baseUrl>/foo/bar`
+    },
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "validProperties": "shadow-color,shadow-opacity,shadow-offset,elevation"
+        }
+      }
+    ]
   },
   "exclude": [
     "node_modules",

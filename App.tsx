@@ -7,16 +7,19 @@
  */
 
 import React from 'react';
-import { SafeAreaView, ScrollView, View, Text } from 'react-native';
+import IntroContainer from '@src/containers/AppIntro/Container';
+import { StyleProvider } from 'native-base';
+import getTheme from '@src/native-base-theme/components';
+import platform from '@src/native-base-theme/variables/platform';
+import { ThemeProvider } from 'styled-components/native';
+import theme from '@src/stores/theme';
 
 const App: React.FC = () => (
-  <SafeAreaView>
-    <ScrollView contentInsetAdjustmentBehavior="automatic">
-      <View>
-        <Text testID="title">HighTable</Text>
-      </View>
-    </ScrollView>
-  </SafeAreaView>
+  <StyleProvider style={getTheme(platform)}>
+    <ThemeProvider theme={theme}>
+      <IntroContainer />
+    </ThemeProvider>
+  </StyleProvider>
 );
 
 export default App;

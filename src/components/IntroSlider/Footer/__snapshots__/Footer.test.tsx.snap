@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer moves the step with the count  1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#F8F8F8",
+              "borderColor": "#cbcbcb",
+              "borderTopWidth": 0.5,
+              "elevation": 3,
+              "flexDirection": "row",
+              "height": 55,
+              "justifyContent": "center",
+              "left": 0,
+              "paddingBottom": 0,
+              "right": 0,
+            },
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 0,
+              "marginBottom": -60,
+              "top": -50,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+              Object {
+                "backgroundColor": "rgba(248,149,5,0.24)",
+                "height": 4,
+                "width": 200,
+              },
+            ]
+          }
+          testID="progress"
+        >
+          <View
+            position={1}
+            style={
+              Array [
+                Object {},
+                Object {
+                  "borderColor": "#F89505",
+                  "borderStyle": "solid",
+                  "borderWidth": 2,
+                  "height": 0,
+                  "left": "20%",
+                  "position": "relative",
+                  "width": "20%",
+                },
+              ]
+            }
+            testID="step"
+          />
+        </View>
+      </View>
+    </SafeAreaView>
+  </View>
+</View>
+`;
+
+exports[`Footer renders successfully 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#F8F8F8",
+              "borderColor": "#cbcbcb",
+              "borderTopWidth": 0.5,
+              "elevation": 3,
+              "flexDirection": "row",
+              "height": 55,
+              "justifyContent": "center",
+              "left": 0,
+              "paddingBottom": 0,
+              "right": 0,
+            },
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 0,
+              "marginBottom": -60,
+              "top": -50,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+              Object {
+                "backgroundColor": "rgba(248,149,5,0.24)",
+                "height": 4,
+                "width": 200,
+              },
+            ]
+          }
+          testID="progress"
+        >
+          <View
+            position={0}
+            style={
+              Array [
+                Object {},
+                Object {
+                  "borderColor": "#F89505",
+                  "borderStyle": "solid",
+                  "borderWidth": 2,
+                  "height": 0,
+                  "left": "0%",
+                  "position": "relative",
+                  "width": "20%",
+                },
+              ]
+            }
+            testID="step"
+          />
+        </View>
+      </View>
+    </SafeAreaView>
+  </View>
+</View>
+`;
