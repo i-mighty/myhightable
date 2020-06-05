@@ -25,6 +25,7 @@ export default (variables /* : * */ = variable) => {
       'NativeBase.Icon': {
         top: 6,
         paddingTop: 8,
+        color: '#',
       },
       'NativeBase.IconNB': {
         top: 6,

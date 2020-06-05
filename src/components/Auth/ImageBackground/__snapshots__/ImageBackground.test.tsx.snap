@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageBackground renders properly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        animation="fadeIn"
+        source={
+          Object {
+            "testUri": "../../../src/assets/Intro/cafe.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            undefined,
+          ]
+        }
+        testID="imageBackground"
+      />
+      <View>
+        <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "rgba(0,0,0,0.5)",
+            }
+          }
+        >
+          <View
+            noLeft={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomColor": "transparent",
+                  "borderBottomWidth": 0.5,
+                  "elevation": 0,
+                  "flexDirection": "row",
+                  "height": 64,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "paddingLeft": 6,
+                  "paddingRight": 10,
+                  "paddingTop": 18,
+                  "right": 0,
+                  "shadowColor": null,
+                  "shadowOffset": null,
+                  "shadowOpacity": null,
+                  "shadowRadius": null,
+                  "top": 0,
+                },
+                Object {
+                  "backgroundColor": "rgba(0,0,0,0.5)",
+                  "width": "100%",
+                },
+              ]
+            }
+            transparent={true}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <SvgMock
+                height={38}
+                testID="banner"
+                width={149}
+              />
+            </View>
+          </View>
+        </SafeAreaView>
+      </View>
+      <SafeAreaView
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "flex": 1,
+          }
+        }
+      >
+        <ScrollView
+          automaticallyAdjustContentInsets={false}
+          contentContainerStyle={
+            Array [
+              Object {
+                "padding": undefined,
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+            ]
+          }
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={false}
+          enableResetScrollToCoords={true}
+          extraHeight={75}
+          extraScrollHeight={0}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardShouldPersistTaps="handled"
+          keyboardSpace={0}
+          resetScrollToCoords={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          scrollEventThrottle={1}
+          showsVerticalScrollIndicator={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+          viewIsInsideTabBar={false}
+        />
+      </SafeAreaView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ImageBackground renders with Banner Header 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        animation="fadeIn"
+        source={
+          Object {
+            "testUri": "../../../src/assets/Intro/cafe.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            undefined,
+          ]
+        }
+        testID="imageBackground"
+      />
+      <View>
+        <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "rgba(0,0,0,0.5)",
+            }
+          }
+        >
+          <View
+            noLeft={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomColor": "transparent",
+                  "borderBottomWidth": 0.5,
+                  "elevation": 0,
+                  "flexDirection": "row",
+                  "height": 64,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "paddingLeft": 6,
+                  "paddingRight": 10,
+                  "paddingTop": 18,
+                  "right": 0,
+                  "shadowColor": null,
+                  "shadowOffset": null,
+                  "shadowOpacity": null,
+                  "shadowRadius": null,
+                  "top": 0,
+                },
+                Object {
+                  "backgroundColor": "rgba(0,0,0,0.5)",
+                  "width": "100%",
+                },
+              ]
+            }
+            transparent={true}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <SvgMock
+                height={38}
+                testID="banner"
+                width={149}
+              />
+            </View>
+          </View>
+        </SafeAreaView>
+      </View>
+      <SafeAreaView
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "flex": 1,
+          }
+        }
+      >
+        <ScrollView
+          automaticallyAdjustContentInsets={false}
+          contentContainerStyle={
+            Array [
+              Object {
+                "padding": undefined,
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+            ]
+          }
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={false}
+          enableResetScrollToCoords={true}
+          extraHeight={75}
+          extraScrollHeight={0}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardShouldPersistTaps="handled"
+          keyboardSpace={0}
+          resetScrollToCoords={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          scrollEventThrottle={1}
+          showsVerticalScrollIndicator={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+          viewIsInsideTabBar={false}
+        />
+      </SafeAreaView>
+    </View>
+  </View>
+</View>
+`;

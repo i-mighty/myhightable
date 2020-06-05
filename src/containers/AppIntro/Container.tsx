@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 import Swiper from 'react-native-swiper';
 import Footer from '@src/components/IntroSlider/Footer/Footer';
-import DetailsPage, { PageProp } from '@src/components/IntroSlider/DetailsPage/DetailsPage';
+import DetailsPage, {
+  PageProp,
+} from '@src/components/IntroSlider/DetailsPage/DetailsPage';
+import { AuthOptions } from '@src/stores/auth/types';
 
-const IntroContainer: React.FC = () => {
+interface IntroContainerProps {
+  continueToAuth: (targetAuthOption?: AuthOptions) => void;
+}
+
+const IntroContainer: React.FC<IntroContainerProps> = ({ continueToAuth }) => {
   const [swiperIndex, setSwiperIndex] = useState<number>(0);
 
-  const skipAction = () => {
+  const skipToEnd = () => {
     setSwiperIndex(4);
   };
 
@@ -19,26 +26,28 @@ const IntroContainer: React.FC = () => {
       caption: 'Discover',
       background: require('@src/assets/Intro/discover.jpg'),
       description: 'Find top rated hospitality\ncentres in your city',
-      skipAction,
+      skipAction: skipToEnd,
     },
     {
       caption: 'Experience',
       background: require('@src/assets/Intro/experience.jpg'),
       description: 'Enjoy first class customer service\nfor all bookings',
-      skipAction,
+      skipAction: skipToEnd,
     },
     {
       caption: 'Tribe',
       background: require('@src/assets/Intro/tribe.jpg'),
       description:
         'Find people with similar interests,\ncreate memories, share experiences',
-      skipAction,
+      skipAction: skipToEnd,
     },
     {
       caption: 'Disruptively Affordable',
       background: require('@src/assets/Intro/affordable.jpg'),
       description: 'Get the best possible\nvalue at your current budget',
       withAuth: true,
+      authProceedAction: continueToAuth,
+      targetAuthOption: 'login',
     },
   ];
 

@@ -1,10 +1,13 @@
 import { ThemeProvider } from 'styled-components/native';
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { render as baseRender } from '@testing-library/react-native';
 import theme from '@src/stores/theme';
 
-export const renderWithProps = (Component, props) => {
-  baseRender(
+export const renderWithProps = (
+  Component: React.ElementType,
+  props: Object,
+) => {
+  return baseRender(
     <ThemeProvider theme={theme}>
       <Component {...props} />
     </ThemeProvider>,

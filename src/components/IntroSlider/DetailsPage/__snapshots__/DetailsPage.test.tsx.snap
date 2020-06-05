@@ -400,7 +400,7 @@ Check the render method of \`Button\`.
                     "column": 13,
                     "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
                     "lineNumber": 63,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                    "methodName": "BufferedConsole.Object.<anonymous>.console.error",
                   },
                   Object {
                     "arguments": Array [],
@@ -453,94 +453,6 @@ Check the render method of \`Button\`.
               },
             ],
           },
-          Object {
-            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-            "warnings": Array [
-              YellowBoxWarning {
-                "message": Object {
-                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-                  "substitutions": Array [],
-                },
-                "stack": Array [
-                  Object {
-                    "arguments": Array [],
-                    "column": 29,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
-                    "lineNumber": 58,
-                    "methodName": "Function.parse",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 56,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 156,
-                    "methodName": "registerWarning",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 23,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 88,
-                    "methodName": "warnImpl",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 12,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 66,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 14,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 795,
-                    "methodName": "transformRawValue",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 63,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 834,
-                    "methodName": "getStylesForProperty",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 32,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 857,
-                    "methodName": "<unknown>",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": null,
-                    "file": "<anonymous>",
-                    "lineNumber": null,
-                    "methodName": "Array.reduce",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 15,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 853,
-                    "methodName": "index",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 26,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
-                    "lineNumber": 5762,
-                    "methodName": "InlineStyle.generateStyleObject",
-                  },
-                ],
-                "symbolicated": Object {
-                  "error": null,
-                  "stack": null,
-                  "status": "NONE",
-                },
-              },
-            ],
-          },
         ]
       }
       disableVirtualization={false}
@@ -555,7 +467,7 @@ Check the render method of \`Button\`.
       stickyHeaderIndices={Array []}
       style={
         Object {
-          "height": 97,
+          "height": 48.5,
         }
       }
       updateCellsBatchingPeriod={50}
@@ -663,53 +575,6 @@ Check the render method of \`Button\`.
           </View>
         </TouchableWithoutFeedback>
       </View>
-      <View
-        style={null}
-      >
-        <TouchableWithoutFeedback>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
-                },
-                Object {
-                  "height": 48,
-                  "justifyContent": "center",
-                  "marginTop": 0.5,
-                  "paddingHorizontal": 12,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignItems": "flex-start",
-                  "flexDirection": "row",
-                }
-              }
-            >
-              <Text
-                numberOfLines={2}
-                style={
-                  Object {
-                    "color": "rgba(255, 255, 255, 1)",
-                    "flex": 1,
-                    "fontSize": 14,
-                    "includeFontPadding": false,
-                    "lineHeight": 18,
-                  }
-                }
-              >
-                <Text>
-                  Expected style "backgroundColor: 0.5" to contain units
-                </Text>
-              </Text>
-            </View>
-          </View>
-        </TouchableWithoutFeedback>
-      </View>
     </ScrollView>
     <SafeAreaView
       style={
@@ -781,7 +646,7 @@ exports[`DetailsPage renders properly 1`] = `
         <SafeAreaView
           style={
             Object {
-              "backgroundColor": 0.5,
+              "backgroundColor": "rgba(0,0,0,0.5)",
             }
           }
         >
@@ -808,7 +673,7 @@ exports[`DetailsPage renders properly 1`] = `
                   "top": 0,
                 },
                 Object {
-                  "backgroundColor": 0.5,
+                  "backgroundColor": "rgba(0,0,0,0.5)",
                   "width": "100%",
                 },
               ]
@@ -1114,7 +979,7 @@ Check the render method of \`Button\`.
                     "column": 13,
                     "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
                     "lineNumber": 63,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                    "methodName": "BufferedConsole.Object.<anonymous>.console.error",
                   },
                   Object {
                     "arguments": Array [],
@@ -1167,94 +1032,6 @@ Check the render method of \`Button\`.
               },
             ],
           },
-          Object {
-            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-            "warnings": Array [
-              YellowBoxWarning {
-                "message": Object {
-                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-                  "substitutions": Array [],
-                },
-                "stack": Array [
-                  Object {
-                    "arguments": Array [],
-                    "column": 29,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
-                    "lineNumber": 58,
-                    "methodName": "Function.parse",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 56,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 156,
-                    "methodName": "registerWarning",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 23,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 88,
-                    "methodName": "warnImpl",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 12,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 66,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 14,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 795,
-                    "methodName": "transformRawValue",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 63,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 834,
-                    "methodName": "getStylesForProperty",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 32,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 857,
-                    "methodName": "<unknown>",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": null,
-                    "file": "<anonymous>",
-                    "lineNumber": null,
-                    "methodName": "Array.reduce",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 15,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 853,
-                    "methodName": "index",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 26,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
-                    "lineNumber": 5762,
-                    "methodName": "InlineStyle.generateStyleObject",
-                  },
-                ],
-                "symbolicated": Object {
-                  "error": null,
-                  "stack": null,
-                  "status": "NONE",
-                },
-              },
-            ],
-          },
         ]
       }
       disableVirtualization={false}
@@ -1269,7 +1046,7 @@ Check the render method of \`Button\`.
       stickyHeaderIndices={Array []}
       style={
         Object {
-          "height": 97,
+          "height": 48.5,
         }
       }
       updateCellsBatchingPeriod={50}
@@ -1371,53 +1148,6 @@ Check the render method of \`Button\`.
     in View (created by View)
     in View (created by AppContainer)
     in AppContainer (at src/index.js:26)
-                </Text>
-              </Text>
-            </View>
-          </View>
-        </TouchableWithoutFeedback>
-      </View>
-      <View
-        style={null}
-      >
-        <TouchableWithoutFeedback>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
-                },
-                Object {
-                  "height": 48,
-                  "justifyContent": "center",
-                  "marginTop": 0.5,
-                  "paddingHorizontal": 12,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignItems": "flex-start",
-                  "flexDirection": "row",
-                }
-              }
-            >
-              <Text
-                numberOfLines={2}
-                style={
-                  Object {
-                    "color": "rgba(255, 255, 255, 1)",
-                    "flex": 1,
-                    "fontSize": 14,
-                    "includeFontPadding": false,
-                    "lineHeight": 18,
-                  }
-                }
-              >
-                <Text>
-                  Expected style "backgroundColor: 0.5" to contain units
                 </Text>
               </Text>
             </View>
@@ -1721,7 +1451,7 @@ Check the render method of \`Button\`.
                     "column": 13,
                     "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
                     "lineNumber": 63,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                    "methodName": "BufferedConsole.Object.<anonymous>.console.error",
                   },
                   Object {
                     "arguments": Array [],
@@ -1774,94 +1504,6 @@ Check the render method of \`Button\`.
               },
             ],
           },
-          Object {
-            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-            "warnings": Array [
-              YellowBoxWarning {
-                "message": Object {
-                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-                  "substitutions": Array [],
-                },
-                "stack": Array [
-                  Object {
-                    "arguments": Array [],
-                    "column": 29,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
-                    "lineNumber": 58,
-                    "methodName": "Function.parse",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 56,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 156,
-                    "methodName": "registerWarning",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 23,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 88,
-                    "methodName": "warnImpl",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 12,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 66,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 14,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 795,
-                    "methodName": "transformRawValue",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 63,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 834,
-                    "methodName": "getStylesForProperty",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 32,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 857,
-                    "methodName": "<unknown>",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": null,
-                    "file": "<anonymous>",
-                    "lineNumber": null,
-                    "methodName": "Array.reduce",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 15,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 853,
-                    "methodName": "index",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 26,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
-                    "lineNumber": 5762,
-                    "methodName": "InlineStyle.generateStyleObject",
-                  },
-                ],
-                "symbolicated": Object {
-                  "error": null,
-                  "stack": null,
-                  "status": "NONE",
-                },
-              },
-            ],
-          },
         ]
       }
       disableVirtualization={false}
@@ -1876,7 +1518,7 @@ Check the render method of \`Button\`.
       stickyHeaderIndices={Array []}
       style={
         Object {
-          "height": 97,
+          "height": 48.5,
         }
       }
       updateCellsBatchingPeriod={50}
@@ -1984,53 +1626,6 @@ Check the render method of \`Button\`.
           </View>
         </TouchableWithoutFeedback>
       </View>
-      <View
-        style={null}
-      >
-        <TouchableWithoutFeedback>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
-                },
-                Object {
-                  "height": 48,
-                  "justifyContent": "center",
-                  "marginTop": 0.5,
-                  "paddingHorizontal": 12,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignItems": "flex-start",
-                  "flexDirection": "row",
-                }
-              }
-            >
-              <Text
-                numberOfLines={2}
-                style={
-                  Object {
-                    "color": "rgba(255, 255, 255, 1)",
-                    "flex": 1,
-                    "fontSize": 14,
-                    "includeFontPadding": false,
-                    "lineHeight": 18,
-                  }
-                }
-              >
-                <Text>
-                  Expected style "backgroundColor: 0.5" to contain units
-                </Text>
-              </Text>
-            </View>
-          </View>
-        </TouchableWithoutFeedback>
-      </View>
     </ScrollView>
     <SafeAreaView
       style={
@@ -2102,7 +1697,7 @@ exports[`DetailsPage renders with the right Description 1`] = `
         <SafeAreaView
           style={
             Object {
-              "backgroundColor": 0.5,
+              "backgroundColor": "rgba(0,0,0,0.5)",
             }
           }
         >
@@ -2129,7 +1724,7 @@ exports[`DetailsPage renders with the right Description 1`] = `
                   "top": 0,
                 },
                 Object {
-                  "backgroundColor": 0.5,
+                  "backgroundColor": "rgba(0,0,0,0.5)",
                   "width": "100%",
                 },
               ]
@@ -2454,7 +2049,7 @@ Check the render method of \`Button\`.
                     "column": 13,
                     "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
                     "lineNumber": 63,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                    "methodName": "BufferedConsole.Object.<anonymous>.console.error",
                   },
                   Object {
                     "arguments": Array [],
@@ -2507,94 +2102,6 @@ Check the render method of \`Button\`.
               },
             ],
           },
-          Object {
-            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-            "warnings": Array [
-              YellowBoxWarning {
-                "message": Object {
-                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-                  "substitutions": Array [],
-                },
-                "stack": Array [
-                  Object {
-                    "arguments": Array [],
-                    "column": 29,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
-                    "lineNumber": 58,
-                    "methodName": "Function.parse",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 56,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 156,
-                    "methodName": "registerWarning",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 23,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 88,
-                    "methodName": "warnImpl",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 12,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 66,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 14,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 795,
-                    "methodName": "transformRawValue",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 63,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 834,
-                    "methodName": "getStylesForProperty",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 32,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 857,
-                    "methodName": "<unknown>",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": null,
-                    "file": "<anonymous>",
-                    "lineNumber": null,
-                    "methodName": "Array.reduce",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 15,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 853,
-                    "methodName": "index",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 26,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
-                    "lineNumber": 5762,
-                    "methodName": "InlineStyle.generateStyleObject",
-                  },
-                ],
-                "symbolicated": Object {
-                  "error": null,
-                  "stack": null,
-                  "status": "NONE",
-                },
-              },
-            ],
-          },
         ]
       }
       disableVirtualization={false}
@@ -2609,7 +2116,7 @@ Check the render method of \`Button\`.
       stickyHeaderIndices={Array []}
       style={
         Object {
-          "height": 97,
+          "height": 48.5,
         }
       }
       updateCellsBatchingPeriod={50}
@@ -2717,53 +2224,6 @@ Check the render method of \`Button\`.
           </View>
         </TouchableWithoutFeedback>
       </View>
-      <View
-        style={null}
-      >
-        <TouchableWithoutFeedback>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
-                },
-                Object {
-                  "height": 48,
-                  "justifyContent": "center",
-                  "marginTop": 0.5,
-                  "paddingHorizontal": 12,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignItems": "flex-start",
-                  "flexDirection": "row",
-                }
-              }
-            >
-              <Text
-                numberOfLines={2}
-                style={
-                  Object {
-                    "color": "rgba(255, 255, 255, 1)",
-                    "flex": 1,
-                    "fontSize": 14,
-                    "includeFontPadding": false,
-                    "lineHeight": 18,
-                  }
-                }
-              >
-                <Text>
-                  Expected style "backgroundColor: 0.5" to contain units
-                </Text>
-              </Text>
-            </View>
-          </View>
-        </TouchableWithoutFeedback>
-      </View>
     </ScrollView>
     <SafeAreaView
       style={
@@ -2835,7 +2295,7 @@ exports[`DetailsPage renders with the right Title 1`] = `
         <SafeAreaView
           style={
             Object {
-              "backgroundColor": 0.5,
+              "backgroundColor": "rgba(0,0,0,0.5)",
             }
           }
         >
@@ -2862,7 +2322,7 @@ exports[`DetailsPage renders with the right Title 1`] = `
                   "top": 0,
                 },
                 Object {
-                  "backgroundColor": 0.5,
+                  "backgroundColor": "rgba(0,0,0,0.5)",
                   "width": "100%",
                 },
               ]
@@ -3187,7 +2647,7 @@ Check the render method of \`Button\`.
                     "column": 13,
                     "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
                     "lineNumber": 63,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.error",
+                    "methodName": "BufferedConsole.Object.<anonymous>.console.error",
                   },
                   Object {
                     "arguments": Array [],
@@ -3240,94 +2700,6 @@ Check the render method of \`Button\`.
               },
             ],
           },
-          Object {
-            "category": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-            "warnings": Array [
-              YellowBoxWarning {
-                "message": Object {
-                  "content": "Expected style \\"backgroundColor: 0.5\\" to contain units",
-                  "substitutions": Array [],
-                },
-                "stack": Array [
-                  Object {
-                    "arguments": Array [],
-                    "column": 29,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\Data\\\\YellowBoxWarning.js",
-                    "lineNumber": 58,
-                    "methodName": "Function.parse",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 56,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 156,
-                    "methodName": "registerWarning",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 23,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 88,
-                    "methodName": "warnImpl",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 12,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\react-native\\\\Libraries\\\\YellowBox\\\\YellowBox.js",
-                    "lineNumber": 66,
-                    "methodName": "CustomConsole.Object.<anonymous>.console.warn",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 14,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 795,
-                    "methodName": "transformRawValue",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 63,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 834,
-                    "methodName": "getStylesForProperty",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 32,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 857,
-                    "methodName": "<unknown>",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": null,
-                    "file": "<anonymous>",
-                    "lineNumber": null,
-                    "methodName": "Array.reduce",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 15,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\css-to-react-native\\\\index.js",
-                    "lineNumber": 853,
-                    "methodName": "index",
-                  },
-                  Object {
-                    "arguments": Array [],
-                    "column": 26,
-                    "file": "C:\\\\Users\\\\Josiah\\\\Documents\\\\AppProjects\\\\hightable\\\\node_modules\\\\styled-components\\\\native\\\\dist\\\\styled-components.native.cjs.js",
-                    "lineNumber": 5762,
-                    "methodName": "InlineStyle.generateStyleObject",
-                  },
-                ],
-                "symbolicated": Object {
-                  "error": null,
-                  "stack": null,
-                  "status": "NONE",
-                },
-              },
-            ],
-          },
         ]
       }
       disableVirtualization={false}
@@ -3342,7 +2714,7 @@ Check the render method of \`Button\`.
       stickyHeaderIndices={Array []}
       style={
         Object {
-          "height": 97,
+          "height": 48.5,
         }
       }
       updateCellsBatchingPeriod={50}
@@ -3444,53 +2816,6 @@ Check the render method of \`Button\`.
     in View (created by View)
     in View (created by AppContainer)
     in AppContainer (at src/index.js:26)
-                </Text>
-              </Text>
-            </View>
-          </View>
-        </TouchableWithoutFeedback>
-      </View>
-      <View
-        style={null}
-      >
-        <TouchableWithoutFeedback>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
-                },
-                Object {
-                  "height": 48,
-                  "justifyContent": "center",
-                  "marginTop": 0.5,
-                  "paddingHorizontal": 12,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignItems": "flex-start",
-                  "flexDirection": "row",
-                }
-              }
-            >
-              <Text
-                numberOfLines={2}
-                style={
-                  Object {
-                    "color": "rgba(255, 255, 255, 1)",
-                    "flex": 1,
-                    "fontSize": 14,
-                    "includeFontPadding": false,
-                    "lineHeight": 18,
-                  }
-                }
-              >
-                <Text>
-                  Expected style "backgroundColor: 0.5" to contain units
                 </Text>
               </Text>
             </View>

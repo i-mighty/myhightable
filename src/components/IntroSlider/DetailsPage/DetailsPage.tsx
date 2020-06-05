@@ -8,6 +8,7 @@ import { Button, Text, View } from 'native-base';
 import { ImageSourcePropType, TouchableOpacity } from 'react-native';
 import styled from 'styled-components/native';
 import theme from '@src/stores/theme';
+import { AuthOptions } from '@src/containers/Auth/Container';
 
 export interface PageProp {
   caption?: string;
@@ -16,9 +17,10 @@ export interface PageProp {
   withAuth?: boolean;
   isBanner?: boolean;
   skipAction?: () => void;
-  authProceedAction?: () => void;
+  authProceedAction?: (targetAuthOption?: AuthOptions) => void;
   containerTestID?: string;
   testID?: string;
+  targetAuthOption?: AuthOptions;
 }
 
 const AuthView = styled(View)`
@@ -46,11 +48,18 @@ const DetailsPage: FC<PageProp> = ({
   skipAction,
   authProceedAction,
   containerTestID,
+  targetAuthOption,
   testID,
 }) => {
   const authProceed = () => {
     if (authProceedAction) {
       authProceedAction();
+    }
+  };
+
+  const supAuthProceed = () => {
+    if (targetAuthOption && authProceedAction) {
+      authProceedAction(targetAuthOption);
     }
   };
   return (
@@ -76,7 +85,7 @@ const DetailsPage: FC<PageProp> = ({
                 </Button>
                 <AltView>
                   <Description text={'Already have an account?'} />
-                  <SignInButton onPress={authProceed}>
+                  <SignInButton onPress={supAuthProceed}>
                     <Description color={theme.vars.orange} text={'Sign In'} />
                   </SignInButton>
                 </AltView>

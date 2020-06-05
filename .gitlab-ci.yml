@@ -26,8 +26,8 @@ test:
 
 assembleRelease:
   stage: assembleAndroid
-  only: 
-    - develop
+  except: 
+    - master
   script:
     - cd android
     - echo $KEYSTORE_FILE | base64 -d > my.keystore
@@ -56,11 +56,10 @@ bundleRelease:
   artifacts:
     paths:
       - app/build/outputs/apk/release
-      - CHANGELOG
 
 deployStaging:
   stage: deployAndroid
-  only:
-    - develop
+  except:
+    - master
   script:
     - yarn run android-dropbox-upload

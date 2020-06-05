@@ -1,20 +1,23 @@
 const dropboxV2Api = require('dropbox-v2-api');
 const dotenv = require('dotenv');
 const fs = require('fs');
+const getBranch = require('git-branch');
 
 dotenv.config();
 
-function uploadApkToDropbox() {
+async function uploadApkToDropbox() {
   const timeAndDate = new Date();
 
   const dropbox = dropboxV2Api.authenticate({
     token: process.env.DROPBOX_TOKEN,
   });
+  const branch = getBranch.sync();
+  console.log(`Branch, ${branch}`);
   const dropboxUploadStream = dropbox(
     {
       resource: 'files/upload',
       parameters: {
-        path: `/app-release.${timeAndDate.toISOString()}.apk`,
+        path: `/app-release.${branch ? `.${branch}.` : ''}${timeAndDate}.apk`,
       },
     },
     (err, result, response) => {
@@ -27,11 +30,12 @@ function uploadApkToDropbox() {
     },
   );
   fs.createReadStream(
-    './android/app/build/outputs/apk/debug/app-debug.apk',
+    './android/app/build/outputs/apk/release/app-release.apk',
   ).pipe(dropboxUploadStream);
 }
-if (process.env.NODE_ENV === 'staging') {
-  uploadApkToDropbox();
-} else {
-  console.log('Task completed: Can only upload to Dropbox in staging');
-}
+uploadApkToDropbox();
+// if (process.env.NODE_ENV === 'staging') {
+//   uploadApkToDropbox();
+// } else {
+//   console.log('Task completed: Cannot only upload to Dropbox in staging');
+// }
